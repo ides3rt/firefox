@@ -1,0 +1,90 @@
+{
+	"policies": {
+		"AppAutoUpdate": false,
+		"BackgroundAppUpdate": false,
+		"CaptivePortal": false,
+		"Cookies": {
+			"AcceptThirdParty": "never",
+			"RejectTracker": true,
+			"ExpireAtSessionEnd": true
+		},
+		"DisableFeedbackCommands": true,
+		"DisableFirefoxAccounts": true,
+		"DisableFirefoxScreenshots": true,
+		"DisableFirefoxStudies": true,
+		"DisableFormHistory": true,
+		"DisablePocket": true,
+		"DisableSetDesktopBackground": true,
+		"DisableTelemetry": true,
+		"DNSOverHTTPS": {
+			"Enabled": false,
+			"Locked": true
+		},
+		"DontCheckDefaultBrowser": true,
+		"EnableTrackingProtection": {
+			"Value": true,
+			"Locked": true
+		},
+		"EncryptedMediaExtensions": {
+			"Enabled": false,
+			"Locked": false
+		},
+		"ExtensionUpdate": false,
+		"FirefoxHome": {
+			"Search": false,
+			"TopSites": false,
+			"Highlights": false,
+			"Pocket": false,
+			"Snippets": false,
+			"Locked": true
+		},
+		"HardwareAcceleration": true,
+		"Homepage": {
+			"StartPage": "none"
+		},
+		"ManualAppUpdateOnly": true,
+		"NetworkPrediction": false,
+		"NewTabPage": false,
+		"NoDefaultBookmarks": true,
+		"OfferToSaveLogins": false,
+		"OverrideFirstRunPage": "",
+		"OverridePostUpdatePage": "",
+		"Permissions": {
+			"Autoplay": {
+				"Default": "block-audio-video",
+				"Locked": false
+			}
+		},
+		"PictureInPicture": {
+			"Enabled": false,
+			"Locked": false
+		},
+		"Proxy": {
+			"UseProxyForDNS": true
+		},
+		"SanitizeOnShutdown": {
+			"Cache": true,
+			"Cookies": false,
+			"Downloads": true,
+			"FormData": true,
+			"History": true,
+			"Sessions": true,
+			"SiteSettings": false,
+			"OfflineApps": true,
+			"Locked": false
+		},
+		"SearchSuggestEnabled": false,
+		"UserMessaging": {
+			"WhatsNew": false,
+			"ExtensionRecommendations": false,
+			"FeatureRecommendations": false,
+			"UrlbarInterventions": false,
+			"SkipOnboarding": false,
+			"Locked": true
+		},
+		"WindowsSSO": false,
+		"": {
+
+		}
+	}
+}
