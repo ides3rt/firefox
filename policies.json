@@ -97,8 +97,8 @@
 				"Value": "firefox-compact-dark@mozilla.org",
 				"Status": "default"
 			},
-			"browser.theme.toolbar-theme": {
-				"Value": 0,
+			"browser.toolbars.bookmarks.visibility": {
+				"Value": "never",
 				"Status": "default"
 			},
 			"layout.spellcheckDefault": {
@@ -266,10 +266,6 @@
 				"Status": "locked"
 			},
 			"browser.sessionstore.upgradeBackup.maxUpgradeBackups": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.startup.couldRestoreSession.count": {
 				"Value": 0,
 				"Status": "locked"
 			},
