@@ -8,35 +8,28 @@
 **05.** If you see something that lock you need to edit `policies.json`, in order to unlock them.
 
 ## List of things to enable/disable if break.
-**Can't see popups.**\
-Disable block popups. lol.
-
-**Can't connect to ISP's site.**\
-Add your ISP's site to `Https-Only-Mode` exception.
+**Make Cookies persist**\
+network.cookie.lifetimePolicy = 0
 
 **Sites rendering weird.**\
-gfx.webrender.all = false\
-gfx.font\_rendering.opentype\_svg.enabled = true
+gfx.webrender.all = false
 
 **Sites break 'cause of cookies.**\
 privacy.firstparty.isolate = false\
-privacy.firstparty.isolate.block\_post\_message = false\
-privacy.firstparty.isolate.restrict\_opener\_access = false\
-privacy.firstparty.isolate.use\_site = false\
-fission.autostart = false\
 network.cookie.cookieBehavior = 5
 
-**Most of facebook's services.**\
+**Most of Facebook's services.**\
 network.http.referer.XOriginPolicy = 1
 
 **Netfilx**\
 media.eme.enabled = true
 
-**Flash games**\
+**Zoom**\
 webgl.disable = false
 
-**Most of messages related. (eg. Messager, Line, Whatsapp)**\
+**Most of Messaging and Meeting related. (eg. Messager, Line, Whatsapp, Zoom)**\
 media.peerconnection.enabled = true
+media.peerconnection.ice.no\_host = false
 
 ## What you going to get from my firefox configuration?
 **00.** Enable dark theme and disable smooth scrolling.\
@@ -69,12 +62,9 @@ Installation of `policies.json`:
 ## Recommendation.
 **Addons:**\
 ClearURLs - URLs Tracking Protection.\
-Dark Reader - Dark Theme for Sites.\
 NoScript - Scripts Blocker.\
-Temporary Containers - Sites containner.\
-uBlock Origin - ADs/JS/Malwares/Trackers/Everything Blocker.\
-User-Agent Switcher and Manager - UA spoofer.
+uBlock Origin - Blocker.
 
-**Search Engine**\
+**Search Engines**\
 **BEST:** searx (bad support for Asia like me. lol)\
 **ALTERNATIVE:** duckduckgo-lite (duckduckgo without eyes-candy)
