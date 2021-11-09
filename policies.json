@@ -29,15 +29,6 @@
 			"Enabled": false,
 			"Locked": false
 		},
-		"Extensions": {
-			"Uninstall": [
-				"google@search.mozilla.org",
-				"bing@search.mozilla.org",
-				"amazondotcom@search.mozilla.org",
-				"ebay@search.mozilla.org",
-				"twitter@search.mozilla.org"
-			]
-		},
 		"ExtensionUpdate": false,
 		"FirefoxHome": {
 			"Search": false,
@@ -112,6 +103,10 @@
 			},
 			"ui.key.menuAccessKeyFocuses": {
 				"Value": false,
+				"Status": "default"
+			},
+			"browser.download.autohideButton": {
+				"Value": true,
 				"Status": "default"
 			},
 			"extensions.activeThemeID": {
