@@ -1,0 +1,10 @@
+no-cosmetic-filtering: * true
+no-csp-reports: * true
+no-large-media: behind-the-scene true
+no-scripting: * true
+* * 3p block
+* * 3p-frame block
+* * 3p-script block
+behind-the-scene * * block
+addons.mozilla.org mozilla.net * noop
+addons.mozilla.org mozilla.org * noop

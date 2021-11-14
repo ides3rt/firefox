@@ -59,5 +59,8 @@ Installation of `policies.json`:
 # chmod 644 /usr/lib/firefox/distribution/policies.json
 ```
 
-## Recommendation.
-Refer to `arkenfox`: [here](https://github.com/arkenfox/user.js/wiki)
+## Others recommendation.
+[arkenfox](https://github.com/arkenfox/user.js/wiki)
+
+## My recommendation.
+I only use `uBlock Origin` and my settings though text file is in `Addons`.

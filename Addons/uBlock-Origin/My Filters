@@ -1,0 +1,12 @@
+! Block third party fonts
+*$font,third-party
+
+! 1x1pixel clear images on startpage.com
+||startpage.com/do/*$image,important
+||startpage.com/english/*$image,important
+||startpage.com/tst2/*$image,important
+
+! Disable Workers
+*$csp=worker-src 'none'
+
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
