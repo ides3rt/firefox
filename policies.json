@@ -106,7 +106,7 @@
 				"Status": "default"
 			},
 			"browser.download.autohideButton": {
-				"Value": true,
+				"Value": false,
 				"Status": "default"
 			},
 			"extensions.activeThemeID": {
