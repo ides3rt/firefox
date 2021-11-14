@@ -14,6 +14,7 @@ network.cookie.lifetimePolicy = 0
 gfx.webrender.all = false
 
 **Sites break 'cause of cookies.**\
+* It's recommend to use `Temporary Containers` if you want to use this.\
 privacy.firstparty.isolate = false\
 network.cookie.cookieBehavior = 5
 
@@ -26,7 +27,7 @@ media.eme.enabled = true
 **FlashGame and ZOOM**\
 webgl.disabled = false
 
-**Most of Messaging and Meeting related. (eg. Messager, Line, Whatsapp, ZOOM)**\
+**Real Time Communications related. (eg. Messager, Line, Whatsapp, ZOOM)**\
 media.peerconnection.enabled = true
 media.peerconnection.ice.no\_host = false
 
@@ -49,7 +50,7 @@ Before install your should open Firefox atleast once.
 Installation of `user.js`:
 ```
 $ git clone https://github.com/ides3rt/firefox.git
-$ rm -rf $HOME/.mozilla/firefox/*.default-release/{*,.*}
+$ rm -rf $HOME/.mozilla/firefox/*.default-release/**
 $ cp firefox/user.js $HOME/.mozilla/firefox/*.default-release/
 ```
 Installation of `policies.json`:
@@ -59,12 +60,4 @@ Installation of `policies.json`:
 ```
 
 ## Recommendation.
-**Addons:**\
-ClearURLs - URLs Tracking Protection.\
-NoScript - Scripts Blocker.\
-uBlock Origin - Blocker.
-
-**Search Engines**\
-**BEST:** searX (it's slow for Asia like me, lol)\
-**ALTERNATIVE:** DuckDuckGo-Lite (DuckDuckGo without eyes-candy)\
-**ALTERNATIVE2:** DuckDuckGo
+Refer to `arkenfox`: [here](https://github.com/arkenfox/user.js/wiki)
