@@ -40,7 +40,8 @@
 		},
 		"HardwareAcceleration": true,
 		"Homepage": {
-			"StartPage": "none"
+			"StartPage": "none",
+			"Locked": true
 		},
 		"ManualAppUpdateOnly": true,
 		"NetworkPrediction": false,
@@ -181,21 +182,17 @@
 				"Value": false,
 				"Status": "locked"
 			},
-			"browser.urlbar.shortcuts.bookmarks": {
-				"Value": false,
-				"Status": "locked"
-			},
 			"browser.urlbar.suggest.calculator": {
 				"Value": false,
 				"Status": "locked"
 			},
 			"browser.urlbar.shortcuts.history": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.urlbar.shortcuts.tabs": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.urlbar.showSearchSuggestionsFirst": {
 				"Value": false,
@@ -371,7 +368,7 @@
 			},
 			"browser.safebrowsing.blockedURIs.enabled": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.safebrowsing.downloads.remote.block_dangerous": {
 				"Value": false,
@@ -535,15 +532,15 @@
 			},
 			"browser.safebrowsing.malware.enabled": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.safebrowsing.phishing.enabled": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.safebrowsing.downloads.enabled": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.safebrowsing.downloads.remote.enabled": {
 				"Value": false,
@@ -659,7 +656,7 @@
 			},
 			"media.memory_cache_max_size": {
 				"Value": 65536,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.sessionstore.privacy_level": {
 				"Value": 2,
@@ -867,7 +864,7 @@
 			},
 			"places.history.enabled": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"extensions.blocklist.enabled": {
 				"Value": true,
