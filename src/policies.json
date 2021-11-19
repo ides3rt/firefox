@@ -106,10 +106,6 @@
 				"Value": false,
 				"Status": "default"
 			},
-			"browser.download.autohideButton": {
-				"Value": false,
-				"Status": "default"
-			},
 			"extensions.activeThemeID": {
 				"Value": "firefox-compact-dark@mozilla.org",
 				"Status": "default"
@@ -366,10 +362,6 @@
 				"Value": 0,
 				"Status": "locked"
 			},
-			"browser.safebrowsing.blockedURIs.enabled": {
-				"Value": false,
-				"Status": "default"
-			},
 			"browser.safebrowsing.downloads.remote.block_dangerous": {
 				"Value": false,
 				"Status": "locked"
@@ -379,10 +371,6 @@
 				"Status": "locked"
 			},
 			"browser.safebrowsing.passwords.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"signon.management.page.breach-alerts.enabled": {
 				"Value": false,
 				"Status": "locked"
 			},
@@ -529,18 +517,6 @@
 			"extensions.webcompat-reporter.enabled": {
 				"Value": false,
 				"Status": "locked"
-			},
-			"browser.safebrowsing.malware.enabled": {
-				"Value": false,
-				"Status": "default"
-			},
-			"browser.safebrowsing.phishing.enabled": {
-				"Value": false,
-				"Status": "default"
-			},
-			"browser.safebrowsing.downloads.enabled": {
-				"Value": false,
-				"Status": "default"
 			},
 			"browser.safebrowsing.downloads.remote.enabled": {
 				"Value": false,
@@ -889,6 +865,10 @@
 			"browser.startup.homepage_override.mstone": {
 				"Value": "ignore",
 				"Status": "locked"
+			},
+			"browser.download.autohideButton": {
+				"Value": false,
+				"Status": "default"
 			},
 			"browser.bookmarks.max_backups": {
 				"Value": 0,
