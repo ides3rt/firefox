@@ -362,18 +362,6 @@
 				"Value": 0,
 				"Status": "locked"
 			},
-			"browser.safebrowsing.downloads.remote.block_dangerous": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.safebrowsing.downloads.remote.block_dangerous_host": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.safebrowsing.passwords.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
 			"signon.suggestImportCount": {
 				"Value": 0,
 				"Status": "locked"
@@ -387,6 +375,10 @@
 				"Status": "locked"
 			},
 			"signon.backup.enabled": {
+				"Value": false,
+				"Status": "locked"
+			},
+			"browser.safebrowsing.passwords.enabled": {
 				"Value": false,
 				"Status": "locked"
 			},
@@ -528,11 +520,15 @@
 			},
 			"browser.safebrowsing.downloads.remote.block_potentially_unwanted": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.safebrowsing.downloads.remote.block_uncommon": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
+			},
+			"browser.safebrowsing.allowOverride": {
+				"Value": false,
+				"Status": "default"
 			},
 			"network.prefetch-next": {
 				"Value": false,

@@ -7,6 +7,9 @@
 **04.** If you need to change setting(s) that lock, you need to edit `policies.json`, in order to unlock them.
 
 ## List of things to enable/disable if break.
+**Bypass Google's safebrowsing.**\
+browser.safebrowsing.allowOverride = true
+
 **Make cookies persist.**\
 network.cookie.lifetimePolicy = 0
 
@@ -29,15 +32,15 @@ media.peerconnection.ice.no\_host = false
 webgl.disabled = false
 
 ## What you going to get from my firefox configuration?
-**01.** Enable dark theme.\
-**02.** Disable WebRTC.\
-**03.** Disable DRM media.\
-**04.** Disable firefox auto updates.\
-**05.** Disable firefox telemetry.\
-**06.** Using [FPI](https://wiki.mozilla.org/Security/FirstPartyIsolation).\
-**07.** Enable HTTPS-Only mode by default.\
-**08.** Disable WebGL.\
-**09.** Disable remote safebrowsing.
+**01.** Enabled dark theme.\
+**02.** Disabled WebRTC.\
+**03.** Disabled DRM media.\
+**04.** Disabled firefox auto updates.\
+**05.** Disabled firefox telemetry.\
+**06.** Enabled [FPI](https://wiki.mozilla.org/Security/FirstPartyIsolation).\
+**07.** Enabled HTTPS-Only mode by default.\
+**08.** Disabled WebGL.\
+**09.** Disabled remote safebrowsing.
 
 ## Installation.
 Before install your should open Firefox atleast once.
@@ -56,11 +59,14 @@ Installation of `policies.json`:
 
 ## My recommendation.
 Addons:\
-I only use `uBlock Origin` as a "Privacy Addons" and my settings though text file is in `doc/addons`.
+I only use `uBlock Origin` as a "Privacy Addons".\
+My settings though text file is in `doc/addons`.
 
 Search engine:\
-`DDG` is my current search engine, even though `searX` is better than `DDG` it's bad support for Asia.\
-You may want to look at `DDG-Lite` it's `DDG`, but with no Java script.
+`searX` is the go to, but it's very slow on Asia.\
+`DDG-Lite` is the best alternative if you care about privacy, but it's very ugly ui.\
+`DDG` is the best for someone that kinna chill about privacy.\
+`Startpage` is Google likes sg, but it's history of tracking users, you may want to "[fix](https://github.com/arkenfox/user.js/wiki/4.2.2-uBlock-Origin#small_orange_diamond-filters)" it.
 
 ## Others recommendation.
 [arkenfox](https://github.com/arkenfox/user.js/wiki)
