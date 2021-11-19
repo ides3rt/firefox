@@ -15,6 +15,7 @@ gfx.webrender.all = false
 
 **Sites break 'cause of cookies.**
 * It's recommend to use `Temporary Containers` if you want to use this.
+
 privacy.firstparty.isolate = false\
 network.cookie.cookieBehavior = 5
 
