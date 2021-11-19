@@ -51,11 +51,11 @@ Installation of `user.js`:
 ```
 $ git clone https://github.com/ides3rt/firefox.git
 $ rm -rf $HOME/.mozilla/firefox/*.default-release/**
-$ cp firefox/user.js $HOME/.mozilla/firefox/*.default-release/
+$ cp firefox/src/user.js $HOME/.mozilla/firefox/*.default-release/
 ```
 Installation of `policies.json`:
 ```
-# cp firefox/policies.json /usr/lib/firefox/distribution/
+# cp firefox/src/policies.json /usr/lib/firefox/distribution/
 # chmod 644 /usr/lib/firefox/distribution/policies.json
 ```
 
