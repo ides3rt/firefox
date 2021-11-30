@@ -8,7 +8,6 @@
 			"RejectTracker": true,
 			"ExpireAtSessionEnd": true
 		},
-		"DisableFeedbackCommands": true,
 		"DisableFirefoxAccounts": true,
 		"DisableFirefoxScreenshots": true,
 		"DisableFirefoxStudies": true,
@@ -40,8 +39,7 @@
 		},
 		"HardwareAcceleration": true,
 		"Homepage": {
-			"StartPage": "none",
-			"Locked": true
+			"StartPage": "none"
 		},
 		"ManualAppUpdateOnly": true,
 		"NetworkPrediction": false,
@@ -75,6 +73,7 @@
 			"OfflineApps": true,
 			"Locked": false
 		},
+		"SearchBar": "separate",
 		"SearchSuggestEnabled": false,
 		"UserMessaging": {
 			"WhatsNew": false,
@@ -747,6 +746,10 @@
 				"Status": "locked"
 			},
 			"pdfjs.enableScripting": {
+				"Value": false,
+				"Status": "locked"
+			},
+			"browser.download.alwaysOpenPanel": {
 				"Value": false,
 				"Status": "locked"
 			},
