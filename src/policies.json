@@ -537,6 +537,10 @@
 				"Value": false,
 				"Status": "locked"
 			},
+			"network.predictor.enable-prefetch": {
+				"Value": false,
+				"Status": "locked"
+			},
 			"network.http.speculative-parallel-limit": {
 				"Value": 0,
 				"Status": "locked"
@@ -867,6 +871,10 @@
 			},
 			"browser.download.autohideButton": {
 				"Value": false,
+				"Status": "default"
+			},
+			"browser.backspace_action": {
+				"Value": 0,
 				"Status": "default"
 			},
 			"browser.bookmarks.max_backups": {
