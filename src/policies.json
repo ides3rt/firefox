@@ -70,7 +70,7 @@
 			"History": true,
 			"Sessions": true,
 			"SiteSettings": false,
-			"OfflineApps": true,
+			"OfflineApps": false,
 			"Locked": false
 		},
 		"SearchBar": "separate",
@@ -685,19 +685,11 @@
 				"Value": 2,
 				"Status": "locked"
 			},
-			"media.peerconnection.enabled": {
-				"Value": false,
-				"Status": "default"
-			},
-			"media.peerconnection.ice.default_address_only": {
+			"media.peerconnection.ice.proxy_only_if_behind_proxy": {
 				"Value": true,
 				"Status": "locked"
 			},
-			"media.peerconnection.ice.no_host": {
-				"Value": true,
-				"Status": "default"
-			},
-			"media.peerconnection.ice.proxy_only_if_behind_proxy": {
+			"media.peerconnection.ice.default_address_only": {
 				"Value": true,
 				"Status": "locked"
 			},
