@@ -26,21 +26,18 @@ network.http.referer.XOriginPolicy = 1
 **Netfilx**\
 media.eme.enabled = true
 
-**Real time communications related. (eg. Messager, Line, Whatsapp, ZOOM)**\
-media.peerconnection.enabled = true
-media.peerconnection.ice.no\_host = false
+**GPU Required**\
 webgl.disabled = false
 
 ## What you going to get from my firefox configuration?
 **01.** Enabled dark theme.\
-**02.** Disabled WebRTC.\
-**03.** Disabled DRM media.\
-**04.** Disabled firefox auto updates.\
-**05.** Disabled firefox telemetry.\
-**06.** Enabled [FPI](https://wiki.mozilla.org/Security/FirstPartyIsolation).\
-**07.** Enabled HTTPS-Only mode by default.\
-**08.** Disabled WebGL.\
-**09.** Disabled remote safebrowsing.
+**02.** Disabled DRM media.\
+**03.** Disabled firefox auto updates.\
+**04.** Disabled firefox telemetry.\
+**05.** Enabled [FPI](https://wiki.mozilla.org/Security/FirstPartyIsolation).\
+**06.** Enabled HTTPS-Only mode by default.\
+**07.** Disabled WebGL.\
+**08.** Disabled remote safebrowsing.
 
 ## Installation.
 Before install your should open Firefox atleast once.
@@ -60,7 +57,7 @@ Installation of `policies.json`:
 ## My recommendation.
 Addons:\
 I only use `uBlock Origin` as a "Privacy Addons".\
-My settings though text file is in `doc/addons`.
+My settings though text file is in `doc/addons-privacy`.
 
 Search engine:\
 `searX` is the go to, but it's very slow on Asia.\
