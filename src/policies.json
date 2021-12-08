@@ -6,7 +6,8 @@
 		"Cookies": {
 			"AcceptThirdParty": "never",
 			"RejectTracker": true,
-			"ExpireAtSessionEnd": true
+			"ExpireAtSessionEnd": true,
+			"Behavior": "reject-tracker-and-partition-foreign"
 		},
 		"DisableFirefoxAccounts": true,
 		"DisableFirefoxScreenshots": true,
@@ -141,6 +142,10 @@
 				"Value": 0,
 				"Status": "locked"
 			},
+			"browser.urlbar.quicksuggest.dataCollection.enabled": {
+				"Value": false,
+				"Status": "locked"
+			},
 			"browser.urlbar.merino.enabled": {
 				"Value": false,
 				"Status": "locked"
@@ -161,8 +166,8 @@
 				"Value": false,
 				"Status": "locked"
 			},
-			"browser.urlbar.quicksuggest.scenario": {
-				"Value": "offline",
+			"browser.urlbar.quicksuggest.shouldShowOnboardingDialog": {
+				"Value": false,
 				"Status": "locked"
 			},
 			"browser.urlbar.quicksuggest.sponsoredIndex": {
@@ -190,6 +195,10 @@
 				"Status": "default"
 			},
 			"browser.urlbar.showSearchSuggestionsFirst": {
+				"Value": false,
+				"Status": "locked"
+			},
+			"browser.urlbar.suggest.quicksuggest.nonsponsored": {
 				"Value": false,
 				"Status": "locked"
 			},
@@ -571,10 +580,6 @@
 			},
 			"browser.urlbar.dnsResolveSingleWordsAfterSearch": {
 				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.urlbar.suggest.quicksuggest": {
-				"Value": false,
 				"Status": "locked"
 			},
 			"browser.urlbar.suggest.quicksuggest.sponsored": {
