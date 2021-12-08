@@ -1,4 +1,6 @@
 user_pref("fission.autostart", true);
+user_pref("privacy.partition.network_state.ocsp_cache", true);
+user_pref("privacy.partition.serviceWorkers", true);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.server", "data:,");
 user_pref("toolkit.telemetry.newProfilePing.enabled", false);
@@ -30,7 +32,6 @@ user_pref("webchannel.allowObject.urlWhitelist", "");
 user_pref("permissions.delegation.enabled", false);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("privacy.sanitize.timeSpan", 0);
-user_pref("privacy.firstparty.isolate", true);
 user_pref("privacy.resistFingerprinting", true);
 user_pref("privacy.window.maxInnerWidth", 1600);
 user_pref("privacy.window.maxInnerHeight", 900);
