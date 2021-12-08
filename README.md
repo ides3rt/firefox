@@ -11,14 +11,11 @@
 browser.safebrowsing.allowOverride = true
 
 **Make cookies persist.**\
-network.cookie.lifetimePolicy = 0
+network.cookie.lifetimePolicy = 0\
+privacy.clearOnShutdown.history = false
 
 **Sites rendering weird.**\
 gfx.webrender.all = false
-
-**Sites break 'cause of cookies. (it's recommend to use `Temporary Containers` if you want to use this)**
-privacy.firstparty.isolate = false\
-network.cookie.cookieBehavior = 5
 
 **Most of Facebook's services. (eg. Instagram)**\
 network.http.referer.XOriginPolicy = 1
@@ -34,7 +31,7 @@ webgl.disabled = false
 **02.** Disabled DRM media.\
 **03.** Disabled firefox auto updates.\
 **04.** Disabled firefox telemetry.\
-**05.** Enabled [FPI](https://wiki.mozilla.org/Security/FirstPartyIsolation).\
+**05.** Enabled [dFPI](https://bugzilla.mozilla.org/show_bug.cgi?id=1649876).\
 **06.** Enabled HTTPS-Only mode by default.\
 **07.** Disabled WebGL.\
 **08.** Disabled remote safebrowsing.
