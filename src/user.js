@@ -1,6 +1,5 @@
 user_pref("fission.autostart", true);
 user_pref("privacy.partition.network_state.ocsp_cache", true);
-user_pref("privacy.partition.serviceWorkers", true);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.server", "data:,");
 user_pref("toolkit.telemetry.newProfilePing.enabled", false);

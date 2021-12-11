@@ -4,7 +4,8 @@
 **01.** Some of your previous modified `about:config` (include all of your profiles) will gets overwrite by my `policies.json`.\
 **02.** This config is prefered `privacy` over `security`.\
 **03.** Some of this config is my preferences.\
-**04.** If you need to change setting(s) that lock, you need to edit `policies.json`, in order to unlock them.
+**04.** If you need to change setting(s) that lock, you need to edit `policies.json`, in order to unlock them.\
+**05.** This config version is followed by firefox in Arch-Testing repo.
 
 ## List of things to enable/disable if break.
 **Bypass Google's safebrowsing.**\
