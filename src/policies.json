@@ -7,7 +7,6 @@
 			"AcceptThirdParty": "never",
 			"RejectTracker": true,
 			"ExpireAtSessionEnd": true,
-			"Behavior": "reject-tracker-and-partition-foreign"
 		},
 		"DisableFirefoxAccounts": true,
 		"DisableFirefoxScreenshots": true,
@@ -847,14 +846,6 @@
 				"Status": "locked"
 			},
 			"network.http.referer.spoofSource": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"network.http.altsvc.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"network.http.altsvc.eo": {
 				"Value": false,
 				"Status": "locked"
 			},
