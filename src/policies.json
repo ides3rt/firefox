@@ -765,6 +765,10 @@
 				"Value": 15,
 				"Status": "default"
 			},
+			"extensions.postDownloadThirdPartyPrompt": {
+				"Value": false,
+				"Status": "default"
+			},
 			"extensions.webextensions.restrictedDomains": {
 				"Value": "",
 				"Status": "default"
