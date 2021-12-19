@@ -11,6 +11,9 @@
 **Bypass Google's safebrowsing.**\
 browser.safebrowsing.allowOverride = true
 
+**Bypass 3rd party extension install prompts.**\
+extensions.postDownloadThirdPartyPrompt = true
+
 **Make cookies persist.**\
 network.cookie.lifetimePolicy = 0\
 privacy.clearOnShutdown.history = false
@@ -58,7 +61,7 @@ I only use `uBlock Origin` as a "Privacy Addons".\
 My settings though text file is in `doc/addons-privacy`.
 
 Search engine:\
-`searX` is the go to, but it's very slow on Asia.\
+`searX` is the go to, but you need to host instance yourself.\
 `DDG-Lite` is the best alternative if you care about privacy, but it's very ugly ui.\
 `DDG` is the best for someone that kinna chill about privacy.\
 `Startpage` is Google likes sg, but it's history of tracking users, you may want to "[fix](https://github.com/arkenfox/user.js/wiki/4.2.2-uBlock-Origin#small_orange_diamond-filters)" it.
