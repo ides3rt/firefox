@@ -63,8 +63,7 @@ My settings though text file is in `doc/addons-privacy`.
 Search engine:\
 `searX` is the go to, but you need to host instance yourself.\
 `DDG-Lite` is the best alternative if you care about privacy, but it's very ugly ui.\
-`DDG` is the best for someone that kinna chill about privacy.\
-`Startpage` is Google likes sg, but it's history of tracking users, you may want to "[fix](https://github.com/arkenfox/user.js/wiki/4.2.2-uBlock-Origin#small_orange_diamond-filters)" it.
+`DDG` is the best for someone that kinna chill about privacy.
 
 ## Others recommendation.
 [arkenfox](https://github.com/arkenfox/user.js/wiki)
