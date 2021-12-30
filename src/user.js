@@ -1,4 +1,5 @@
 user_pref("fission.autostart", true);
+user_pref("browser.startup.page", 0);
 user_pref("javascript.use_us_english_locale", true);
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.server", "data:,");
