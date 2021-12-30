@@ -2,9 +2,8 @@
 
 ## WARNING!
 **01.** Some of your previous modified `about:config` (include all of your profiles) will gets overwrite by my `policies.json`.\
-**02.** This config is prefered `privacy` over `security`.\
-**03.** Some of this config is my preferences.\
-**04.** If you need to change setting(s) that lock, you need to edit `policies.json`, in order to unlock them.\
+**02.** Some of this config is my preferences.\
+**03.** If you need to change setting(s) that lock, you need to edit `policies.json`, in order to unlock them.\
 **05.** This config version is followed by firefox in Arch-Testing repo.
 
 ## List of things to enable/disable if break.
@@ -21,14 +20,19 @@ privacy.clearOnShutdown.history = false
 **Sites rendering weird.**\
 gfx.webrender.all = false
 
-**Most of Facebook's services. (eg. Instagram)**\
+**Most of Facebook's services (eg. Instagram).**\
 network.http.referer.XOriginPolicy = 1
 
-**Netfilx**\
+**Netfilx.**\
 media.eme.enabled = true
 
-**GPU Required**\
+**GPU Required.**\
 webgl.disabled = false
+
+**Language package breaks (Remove these 3 preferences.**\
+extensions.autoDisableScopes\
+extensions.enabledScopes\
+javascript.use\_us\_english\_locale
 
 ## What you going to get from my firefox configuration?
 **01.** Enabled dark theme.\

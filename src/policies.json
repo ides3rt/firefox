@@ -459,6 +459,10 @@
 				"Value": false,
 				"Status": "locked"
 			},
+			"intl.accept_languages": {
+				"Value": "en_US, en",
+				"Status": "default"
+			},
 			"app.update.background.scheduling.enabled": {
 				"Value": false,
 				"Status": "locked"
