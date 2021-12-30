@@ -3,9 +3,6 @@
 		"AppAutoUpdate": false,
 		"BackgroundAppUpdate": false,
 		"CaptivePortal": false,
-		"Cookies": {
-			"ExpireAtSessionEnd": true
-		},
 		"DisableFirefoxAccounts": true,
 		"DisableFirefoxScreenshots": true,
 		"DisableFirefoxStudies": true,
@@ -50,6 +47,10 @@
 		},
 		"PictureInPicture": {
 			"Enabled": false,
+			"Locked": false
+		},
+		"PopupBlocking": {
+			"Default": true,
 			"Locked": false
 		},
 		"Proxy": {
@@ -695,10 +696,6 @@
 				"Value": true,
 				"Status": "locked"
 			},
-			"dom.disable_open_during_load": {
-				"Value": true,
-				"Status": "default"
-			},
 			"dom.popup_allowed_events": {
 				"Value": "click dblclick mousedown pointerdown",
 				"Status": "locked"
@@ -757,7 +754,11 @@
 			},
 			"browser.contentblocking.category": {
 				"Value": "strict",
-				"Status": "locked"
+				"Status": "user"
+			},
+			"network.cookie.lifetimePolicy": {
+				"Value": 2,
+				"Status": "default"
 			},
 			"network.cookie.thirdparty.sessionOnly": {
 				"Value": true,
