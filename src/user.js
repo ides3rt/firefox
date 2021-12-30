@@ -10,6 +10,8 @@ user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);
 user_pref("toolkit.telemetry.coverage.opt-out", true);
 user_pref("toolkit.coverage.opt-out", true);
 user_pref("toolkit.coverage.endpoint.base", "");
+user_pref("app.normandy.enabled", false);
+user_pref("app.normandy.api_url", "");
 user_pref("breakpad.reportURL", "");
 user_pref("captivedetect.canonicalURL", "");
 user_pref("keyword.enabled", false);
