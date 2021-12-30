@@ -383,10 +383,6 @@
 				"Value": false,
 				"Status": "locked"
 			},
-			"browser.cache.offline.enable": {
-				"Value": false,
-				"Status": "locked"
-			},
 			"browser.aboutConfig.showWarning": {
 				"Value": false,
 				"Status": "locked"
@@ -544,7 +540,7 @@
 				"Status": "locked"
 			},
 			"network.file.disable_unc_paths": {
-				"Value": false,
+				"Value": true,
 				"Status": "locked"
 			},
 			"network.gio.supported-protocols": {
@@ -699,6 +695,10 @@
 				"Value": true,
 				"Status": "locked"
 			},
+			"dom.disable_open_during_load": {
+				"Value": true,
+				"Status": "default"
+			},
 			"dom.popup_allowed_events": {
 				"Value": "click dblclick mousedown pointerdown",
 				"Status": "locked"
@@ -780,7 +780,7 @@
 				"Status": "locked"
 			},
 			"widget.non-native-theme.enabled": {
-				"Value": false,
+				"Value": true,
 				"Status": "locked"
 			},
 			"browser.link.open_newwindow": {
@@ -844,7 +844,7 @@
 				"Status": "locked"
 			},
 			"dom.storage.next_gen": {
-				"Value": false,
+				"Value": true,
 				"Status": "locked"
 			},
 			"extensions.webcompat.enable_shims": {
