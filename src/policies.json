@@ -114,7 +114,7 @@
 			},
 			"browser.aboutConfig.showWarning": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.newtab.preload": {
 				"Value": false,
@@ -274,7 +274,7 @@
 			},
 			"network.file.disable_unc_paths": {
 				"Value": true,
-				"Status": "locked"
+				"Status": "user"
 			},
 			"network.gio.supported-protocols": {
 				"Value": "",
@@ -407,10 +407,6 @@
 			"browser.eme.ui.enabled": {
 				"Value": false,
 				"Status": "default"
-			},
-			"dom.serviceWorkers.enabled": {
-				"Value": false,
-				"Status": "locked"
 			},
 			"dom.disable_beforeunload": {
 				"Value": true,
