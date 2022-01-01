@@ -390,7 +390,7 @@
 			},
 			"network.http.referer.XOriginPolicy": {
 				"Value": 2,
-				"Status": "default"
+				"Status": "user"
 			},
 			"network.http.referer.XOriginTrimmingPolicy": {
 				"Value": 2,

@@ -1,62 +1,51 @@
-# Welcome to my hardened firefox config!
+# Welcome to my hardened firefox configuration!
 
-## WARNING!
-**01.** Some of your previous modified `about:config` (include all of your profiles) will gets overwrite by my `policies.json`.\
-**02.** Some of this config is my preferences.\
-**03.** If you need to change setting(s) that lock, you need to edit `policies.json`, in order to unlock them.\
-**05.** This config version is followed by firefox in Arch-Testing repo.
+## Helps/Warns.
+**01.** All of you modified pref(s) in all profile(s) going to get overwrite by `policies.json`.
+ For one profile only configuration you may interested in [arkenfox](https://github.com/arkenfox/user.js).\
+**02.** Some prefs is my preferences.\
+**03.** If you need to change pref(s) that locked you need to edit `policies.json`, in order to unlock them.\
+**04.** The prefs are that in `user.js` or "Status: user" in `policies.json` may not locked,
+ but it'll reset on restart (mean some modified pref(s) won't be persist across firefox restart).
 
 ## List of things to enable/disable if break.
-**Bypass Google's safebrowsing.**\
+**Bypass Google's safebrowsing (Reset on restart).**\
 browser.safebrowsing.allowOverride = true
 
-**Bypass 3rd party extension install prompts.**\
+**Bypass 3rd party extension install prompts (Reset on restart).**\
 extensions.postDownloadThirdPartyPrompt = true
 
 **Make cookies persist.**\
-network.cookie.lifetimePolicy = 0\
-privacy.clearOnShutdown.history = false
+network.cookie.lifetimePolicy = 0
 
 **Sites rendering weird.**\
 gfx.webrender.all = false
 
-**Most of Facebook's services (eg. Instagram).**\
+**Cross sites services, e.g. Instagram (Reset on restart).**\
 network.http.referer.XOriginPolicy = 1
 
 **Netfilx.**\
 media.eme.enabled = true
 
-**GPU Required.**\
+**GPU Required (Reset on restart).**\
 webgl.disabled = false
 
-**Language package breaks (Remove these 3 preferences.**\
+**Language package breaks (Remove these 3 preferences in both `policies.json` and `user.js`).**\
 extensions.autoDisableScopes\
 extensions.enabledScopes\
 javascript.use\_us\_english\_locale
 
-## What you going to get from my firefox configuration?
-**01.** Enabled dark theme.\
-**02.** Disabled DRM media.\
-**03.** Disabled firefox auto updates.\
-**04.** Disabled firefox telemetry.\
-**05.** Enabled [dFPI](https://bugzilla.mozilla.org/show_bug.cgi?id=1649876).\
-**06.** Enabled HTTPS-Only mode by default.\
-**07.** Disabled WebGL.\
-**08.** Disabled remote safebrowsing.
-
 ## Installation.
-Before install your should open Firefox atleast once.
+**Notes:** Before install your should open Firefox atleast once.
+Also it's preferable to remove all of data in your profile
+(The one that you want to install this config to).
 
-Installation of `user.js`:
+Installation.
 ```
 $ git clone https://github.com/ides3rt/firefox.git
-$ rm -rf $HOME/.mozilla/firefox/*.default-release/**
-$ cp firefox/src/user.js $HOME/.mozilla/firefox/*.default-release/
-```
-Installation of `policies.json`:
-```
-# cp firefox/src/policies.json /usr/lib/firefox/distribution/
-# chmod 644 /usr/lib/firefox/distribution/policies.json
+$ cp firefox/src/user.js "$HOME"/.mozilla/firefox/*.default-release/
+$ sudo cp firefox/src/policies.json /usr/lib/firefox/distribution/
+$ sudo chmod 644 /usr/lib/firefox/distribution/policies.json
 ```
 
 ## My recommendation.
@@ -64,10 +53,10 @@ Addons:\
 I only use `uBlock Origin` as a "Privacy Addons".\
 My settings though text file is in `doc/addons-privacy`.
 
-Search engine:\
-`searX` is the go to, but you need to host instance yourself.\
-`DDG-Lite` is the best alternative if you care about privacy, but it's very ugly ui.\
-`DDG` is the best for someone that kinna chill about privacy.
+Search engines:\
+`searX` - On Archlinux it's very easy to host searX instance yourself, but on other distros though...\
+`DDG-Lite` - Alternative to `searX`, but it's very ugly ui lol (`DDG` without JS).\
+`DDG` - Just `DDG-Lite` with eyes-candy.
 
 ## Others recommendation.
 [arkenfox](https://github.com/arkenfox/user.js/wiki)
