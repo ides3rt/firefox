@@ -112,278 +112,6 @@
 				"Value": 0,
 				"Status": "default"
 			},
-			"browser.urlbar.accessibility.tabToSearch.announceResults": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.autoFill": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.eventTelemetry.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.filter.javascript": {
-				"Value": true,
-				"Status": "locked"
-			},
-			"browser.urlbar.maxCharsForSearchSuggestions": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.urlbar.maxHistoricalSearchSuggestions": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.urlbar.quicksuggest.dataCollection.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.merino.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.merino.endpointURL": {
-				"Value": "",
-				"Status": "locked"
-			},
-			"browser.urlbar.quicksuggest.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.quicksuggest.nonSponsoredIndex": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.urlbar.quicksuggest.remoteSettings.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.quicksuggest.shouldShowOnboardingDialog": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.quicksuggest.sponsoredIndex": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.urlbar.richSuggestions.tail": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.sponsoredTopSites": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.suggest.calculator": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.shortcuts.history": {
-				"Value": false,
-				"Status": "default"
-			},
-			"browser.urlbar.shortcuts.tabs": {
-				"Value": false,
-				"Status": "default"
-			},
-			"browser.urlbar.showSearchSuggestionsFirst": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.suggest.quicksuggest.nonsponsored": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.unitConversion.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.asrouter.devtoolsEnabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.asrouter.disable-captive-portal-vpn-promo": {
-				"Value": true,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.asrouter.useRemoteL10n": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.discoverystream.compactLayout.enabled": {
-				"Value": true,
-				"Status": "default"
-			},
-			"browser.newtabpage.activity-stream.discoverystream.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.aboutpreferences": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.favicon": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.newtabinit": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.places": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.prefs": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.recommendationprovider": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.sections": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.system.topsites": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.feeds.systemtick": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.section.highlights.includeBookmarks": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.section.highlights.includeDownloads": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.section.highlights.includeVisited": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.section.highlights.rows": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.section.topstories.rows": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.newtabpage.activity-stream.telemetry.ut.events": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.search.suggest.enabled.private": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"dom.forms.autocomplete.formautofill": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"extensions.formautofill.addresses.capture.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"extensions.formautofill.creditCards.hideui": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"extensions.formautofill.reauth.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"extensions.formautofill.section.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"extensions.formautofill.supportRTL": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"layout.css.autofill.background": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"layout.css.autofill.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"signon.autofillForms.autocompleteOff": {
-				"Value": true,
-				"Status": "locked"
-			},
-			"signon.autofillForms.http": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.sessionstore.max_resumed_crashes": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.sessionstore.max_serialize_back": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.sessionstore.max_serialize_forward": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.sessionstore.max_windows_undo": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.sessionstore.restore_hidden_tabs": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.sessionstore.restore_on_demand": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.sessionstore.restore_pinned_tabs_on_demand": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.sessionstore.restore_tabs_lazily": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.sessionstore.upgradeBackup.maxUpgradeBackups": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.sessionstore.upgradeBackup.maxUpgradeBackups": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"signon.suggestImportCount": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"signon.generation.available": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"signon.generation.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"signon.backup.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.safebrowsing.passwords.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
 			"browser.aboutConfig.showWarning": {
 				"Value": false,
 				"Status": "locked"
@@ -430,7 +158,7 @@
 			},
 			"geo.provider.network.url": {
 				"Value": "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%",
-				"Status": "locked"
+				"Status": "default"
 			},
 			"geo.provider.ms-windows-location": {
 				"Value": false,
@@ -451,6 +179,14 @@
 			"browser.region.update.enabled": {
 				"Value": false,
 				"Status": "locked"
+			},
+			"browser.search.region": {
+				"Value": "US",
+				"Status": "user"
+			},
+			"intl.accept_languages": {
+				"Value": "en-US, en",
+				"Status": "user"
 			},
 			"app.update.background.scheduling.enabled": {
 				"Value": false,
@@ -514,7 +250,7 @@
 			},
 			"browser.safebrowsing.allowOverride": {
 				"Value": false,
-				"Status": "default"
+				"Status": "user"
 			},
 			"network.prefetch-next": {
 				"Value": false,
@@ -560,11 +296,11 @@
 				"Value": 0,
 				"Status": "locked"
 			},
-			"browser.urlbar.suggest.quicksuggest.sponsored": {
+			"browser.urlbar.suggest.quicksuggest.nonsponsored": {
 				"Value": false,
 				"Status": "locked"
 			},
-			"browser.urlbar.suggest.engines": {
+			"browser.urlbar.suggest.quicksuggest.sponsored": {
 				"Value": false,
 				"Status": "locked"
 			},
@@ -590,7 +326,7 @@
 			},
 			"layout.css.visited_links_enabled": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"signon.autofillForms": {
 				"Value": false,
@@ -610,7 +346,7 @@
 			},
 			"browser.privatebrowsing.forceMediaMemoryCache": {
 				"Value": true,
-				"Status": "locked"
+				"Status": "user"
 			},
 			"media.memory_cache_max_size": {
 				"Value": 65536,
@@ -618,17 +354,9 @@
 			},
 			"browser.sessionstore.privacy_level": {
 				"Value": 2,
-				"Status": "locked"
-			},
-			"browser.sessionstore.interval": {
-				"Value": 3600000,
 				"Status": "default"
 			},
 			"browser.shell.shortcutFavicons": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"security.tls.version.enable-deprecated": {
 				"Value": false,
 				"Status": "locked"
 			},
@@ -694,11 +422,11 @@
 			},
 			"dom.popup_allowed_events": {
 				"Value": "click dblclick mousedown pointerdown",
-				"Status": "locked"
+				"Status": "user"
 			},
 			"accessibility.force_disabled": {
 				"Value": 1,
-				"Status": "locked"
+				"Status": "user"
 			},
 			"browser.helperApps.deleteTempFileOnExit": {
 				"Value": true,
@@ -726,7 +454,7 @@
 			},
 			"browser.download.alwaysOpenPanel": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.download.manager.addToRecentDocs": {
 				"Value": false,
@@ -740,12 +468,12 @@
 				"Value": 15,
 				"Status": "default"
 			},
-			"extensions.webextensions.restrictedDomains": {
-				"Value": "",
-				"Status": "default"
-			},
 			"extensions.postDownloadThirdPartyPrompt": {
 				"Value": false,
+				"Status": "user"
+			},
+			"extensions.webextensions.restrictedDomains": {
+				"Value": "",
 				"Status": "default"
 			},
 			"browser.contentblocking.category": {
@@ -766,7 +494,7 @@
 			},
 			"layout.css.font-visibility.resistFingerprinting": {
 				"Value": 1,
-				"Status": "locked"
+				"Status": "user"
 			},
 			"browser.startup.blankWindow": {
 				"Value": false,
@@ -774,7 +502,7 @@
 			},
 			"browser.display.use_system_colors": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"widget.non-native-theme.enabled": {
 				"Value": true,
@@ -782,51 +510,11 @@
 			},
 			"browser.link.open_newwindow": {
 				"Value": 3,
-				"Status": "locked"
+				"Status": "user"
 			},
 			"browser.link.open_newwindow.restriction": {
 				"Value": 0,
 				"Status": "locked"
-			},
-			"browser.chrome.site_icons": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.sessionstore.max_tabs_undo": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"browser.sessionstore.resume_from_crash": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.download.forbid_open_with": {
-				"Value": true,
-				"Status": "locked"
-			},
-			"browser.urlbar.suggest.history": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.suggest.bookmark": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.suggest.openpage": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.suggest.topsites": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"browser.urlbar.maxRichResults": {
-				"Value": 0,
-				"Status": "locked"
-			},
-			"places.history.enabled": {
-				"Value": false,
-				"Status": "default"
 			},
 			"extensions.blocklist.enabled": {
 				"Value": true,
@@ -848,17 +536,21 @@
 				"Value": true,
 				"Status": "locked"
 			},
+			"security.tls.version.enable-deprecated": {
+				"Value": false,
+				"Status": "locked"
+			},
 			"browser.startup.homepage_override.mstone": {
 				"Value": "ignore",
 				"Status": "locked"
 			},
 			"app.update.auto": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"extensions.update.autoUpdateDefault": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "default"
 			},
 			"browser.download.autohideButton": {
 				"Value": false,
@@ -867,10 +559,6 @@
 			"browser.backspace_action": {
 				"Value": 0,
 				"Status": "default"
-			},
-			"browser.bookmarks.max_backups": {
-				"Value": 0,
-				"Status": "locked"
 			}
 		}
 	}
