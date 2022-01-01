@@ -158,7 +158,7 @@
 			},
 			"geo.provider.network.url": {
 				"Value": "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%",
-				"Status": "default"
+				"Status": "locked"
 			},
 			"geo.provider.ms-windows-location": {
 				"Value": false,
@@ -386,7 +386,7 @@
 			},
 			"gfx.font_rendering.opentype_svg.enabled": {
 				"Value": false,
-				"Status": "locked"
+				"Status": "user"
 			},
 			"network.http.referer.XOriginPolicy": {
 				"Value": 2,
