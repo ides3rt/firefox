@@ -36,6 +36,7 @@ user_pref("permissions.manager.defaultsUrl", "");
 user_pref("webchannel.allowObject.urlWhitelist", "");
 user_pref("permissions.delegation.enabled", false);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
+user_pref("privacy.partition.serviceWorkers", true);
 user_pref("privacy.cpd.cookies", false);
 user_pref("privacy.sanitize.timeSpan", 0);
 user_pref("privacy.resistFingerprinting", true);
