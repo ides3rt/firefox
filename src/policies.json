@@ -19,7 +19,6 @@
 			"Enabled": false,
 			"Locked": false
 		},
-		"ExtensionUpdate": false,
 		"FirefoxHome": {
 			"Search": false,
 			"TopSites": false,
@@ -115,6 +114,10 @@
 			"browser.aboutConfig.showWarning": {
 				"Value": false,
 				"Status": "default"
+			},
+			"browser.startup.page": {
+				"Value": 0,
+				"Status": "user"
 			},
 			"browser.newtab.preload": {
 				"Value": false,
@@ -225,10 +228,6 @@
 				"Status": "locked"
 			},
 			"network.connectivity-service.enabled": {
-				"Value": false,
-				"Status": "locked"
-			},
-			"extensions.webcompat-reporter.enabled": {
 				"Value": false,
 				"Status": "locked"
 			},
@@ -536,15 +535,15 @@
 				"Value": false,
 				"Status": "locked"
 			},
+			"extensions.webcompat-reporter.enabled": {
+				"Value": false,
+				"Status": "locked"
+			},
 			"browser.startup.homepage_override.mstone": {
 				"Value": "ignore",
 				"Status": "locked"
 			},
 			"app.update.auto": {
-				"Value": false,
-				"Status": "default"
-			},
-			"extensions.update.autoUpdateDefault": {
 				"Value": false,
 				"Status": "default"
 			},
