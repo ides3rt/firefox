@@ -1,13 +1,15 @@
 {
 	"policies": {
 		"AppAutoUpdate": false,
-		"BackgroundAppUpdate": false,
 		"CaptivePortal": false,
 		"DisableFirefoxAccounts": true,
 		"DisableFirefoxScreenshots": true,
 		"DisableFirefoxStudies": true,
 		"DisableFormHistory": true,
 		"DisablePocket": true,
+		"DisableSecurityBypass": {
+			"InvalidCertificate": true
+		},
 		"DisableSetDesktopBackground": true,
 		"DisableTelemetry": true,
 		"DNSOverHTTPS": {
@@ -190,10 +192,6 @@
 			"intl.accept_languages": {
 				"Value": "en-US, en",
 				"Status": "user"
-			},
-			"app.update.background.scheduling.enabled": {
-				"Value": false,
-				"Status": "locked"
 			},
 			"browser.search.update": {
 				"Value": false,
