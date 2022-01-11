@@ -17,6 +17,7 @@ user_pref("captivedetect.canonicalURL", "");
 user_pref("keyword.enabled", false);
 user_pref("toolkit.winRegisterApplicationRestart", false);
 user_pref("security.ssl.require_safe_negotiation", true);
+user_pref("security.OCSP.enabled", 1);
 user_pref("security.OCSP.require", true);
 user_pref("security.pki.sha1_enforcement_level", 1);
 user_pref("security.family_safety.mode", 0);

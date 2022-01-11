@@ -1,16 +1,11 @@
 {
 	"policies": {
-		"AppAutoUpdate": false,
 		"CaptivePortal": false,
 		"DisableFirefoxAccounts": true,
 		"DisableFirefoxScreenshots": true,
 		"DisableFirefoxStudies": true,
 		"DisableFormHistory": true,
 		"DisablePocket": true,
-		"DisableSecurityBypass": {
-			"InvalidCertificate": true
-		},
-		"DisableSetDesktopBackground": true,
 		"DisableTelemetry": true,
 		"DNSOverHTTPS": {
 			"Enabled": false,
@@ -33,7 +28,6 @@
 		"Homepage": {
 			"StartPage": "none"
 		},
-		"ManualAppUpdateOnly": true,
 		"NetworkPrediction": false,
 		"NewTabPage": false,
 		"NoDefaultBookmarks": true,
@@ -109,10 +103,6 @@
 				"Value": "never",
 				"Status": "default"
 			},
-			"layout.spellcheckDefault": {
-				"Value": 0,
-				"Status": "default"
-			},
 			"browser.aboutConfig.showWarning": {
 				"Value": false,
 				"Status": "default"
@@ -185,10 +175,6 @@
 				"Value": false,
 				"Status": "locked"
 			},
-			"browser.search.region": {
-				"Value": "US",
-				"Status": "user"
-			},
 			"intl.accept_languages": {
 				"Value": "en-US, en",
 				"Status": "user"
@@ -237,14 +223,6 @@
 				"Value": "",
 				"Status": "locked"
 			},
-			"browser.safebrowsing.downloads.remote.block_potentially_unwanted": {
-				"Value": false,
-				"Status": "default"
-			},
-			"browser.safebrowsing.downloads.remote.block_uncommon": {
-				"Value": false,
-				"Status": "default"
-			},
 			"browser.safebrowsing.allowOverride": {
 				"Value": false,
 				"Status": "user"
@@ -271,7 +249,7 @@
 			},
 			"network.file.disable_unc_paths": {
 				"Value": true,
-				"Status": "user"
+				"Status": "locked"
 			},
 			"network.gio.supported-protocols": {
 				"Value": "",
@@ -401,10 +379,6 @@
 				"Value": true,
 				"Status": "locked"
 			},
-			"browser.eme.ui.enabled": {
-				"Value": false,
-				"Status": "default"
-			},
 			"dom.disable_beforeunload": {
 				"Value": true,
 				"Status": "locked"
@@ -415,11 +389,11 @@
 			},
 			"dom.popup_allowed_events": {
 				"Value": "click dblclick mousedown pointerdown",
-				"Status": "user"
+				"Status": "locked"
 			},
 			"accessibility.force_disabled": {
 				"Value": 1,
-				"Status": "user"
+				"Status": "locked"
 			},
 			"browser.helperApps.deleteTempFileOnExit": {
 				"Value": true,
@@ -445,6 +419,10 @@
 				"Value": false,
 				"Status": "locked"
 			},
+			"browser.download.useDownloadDir": {
+				"Value": false,
+				"Status": "default"
+			},
 			"browser.download.alwaysOpenPanel": {
 				"Value": false,
 				"Status": "default"
@@ -463,7 +441,7 @@
 			},
 			"extensions.postDownloadThirdPartyPrompt": {
 				"Value": false,
-				"Status": "user"
+				"Status": "locked"
 			},
 			"extensions.webextensions.restrictedDomains": {
 				"Value": "",
@@ -541,15 +519,15 @@
 				"Value": "ignore",
 				"Status": "locked"
 			},
-			"app.update.auto": {
-				"Value": false,
-				"Status": "default"
-			},
 			"browser.download.autohideButton": {
 				"Value": false,
 				"Status": "default"
 			},
 			"browser.backspace_action": {
+				"Value": 0,
+				"Status": "default"
+			},
+			"ui.key.menuAccessKey": {
 				"Value": 0,
 				"Status": "default"
 			}
