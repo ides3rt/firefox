@@ -37,7 +37,7 @@ extensions.enabledScopes
 **Notes:**
 * Before install you should open Firefox atleast once.
 Also it's preferable to remove all data in your profile
-(The one that you want to install this config to).\
+(The one that you want to install this config to).
 * If sudo(8) isn't availible on your system, you may use other
  programs to evaluate your privileges.
 
