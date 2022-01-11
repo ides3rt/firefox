@@ -1,7 +1,7 @@
 # Welcome to my hardened firefox configuration!
 
 ## Helps/Warns
-**1.** I use firefox-dev, so some prefs may not work correctly on your system.
+**1.** I use firefox-dev, so some prefs may not work correctly on your system.\
 **2.** All of your profiles going to get overwrite by `policies.json`.
  For one profile only configuration you may interested in [arkenfox](https://github.com/arkenfox/user.js).\
 **3.** Some prefs is my preferences.\
@@ -11,9 +11,6 @@
 ## List of things to enable/disable if break.
 **Bypass Google's safebrowsing (Reset on restart).**\
 browser.safebrowsing.allowOverride = true
-
-**Bypass 3rd party extension install prompts (Reset on restart).**\
-extensions.postDownloadThirdPartyPrompt = true
 
 **Make cookies persist.**\
 network.cookie.lifetimePolicy = 0
@@ -32,16 +29,16 @@ webgl.disabled = false
 
 **Language package breaks (Remove these 3 preferences in both `policies.json` and `user.js`).**\
 intl.accept_languages\
-browser.search.region\
 javascript.use\_us\_english\_locale\
 extensions.autoDisableScopes\
 extensions.enabledScopes
 
 ## Installation.
-**Notes1:** Before install you should open Firefox atleast once.
+**Notes:**
+* Before install you should open Firefox atleast once.
 Also it's preferable to remove all data in your profile
 (The one that you want to install this config to).\
-**Notes2:** If sudo(8) isn't availible on your system, you may use other
+* If sudo(8) isn't availible on your system, you may use other
  programs to evaluate your privileges.
 
 Installation:
