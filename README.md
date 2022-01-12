@@ -1,20 +1,20 @@
-# Welcome to my hardened firefox configuration!
+# Welcome to my hardened Firefox configuration!
 
 ## Help/warn
-**1.** I use firefox-dev, so some prefs may not work correctly on your system.\
+**1.** I use Firefox-dev, so some prefs may not work correctly on your system.\
 **2.** All of your profiles going to get overwrite by `policies.json`.
- For one profile only configuration you may interested in [arkenfox](https://github.com/arkenfox/user.js).\
+ For one profile only configuration, you may be interested in [arkenfox](https://github.com/arkenfox/user.js).\
 **3.** Some prefs is my preferences.\
-**4.** To make sure your preferred prefs are persist across firefox restart,
+**4.** To make sure your preferred prefs are persisted across Firefox restart,
  It's recommended to edit in `user.js` or `policies.json`.
 
 ## Installation
 **Notes:**
-* Before install you should open Firefox atleast once.
-Also it's preferable to remove all data in your profile
+* Before install, you should open Firefox at least once.
+Also, it's preferable to remove all data in your profile
 (the one that you want to install this config to).
-* If sudo(8) isn't availible on your system, you may use other
- programs to evevate your privileges.
+* If sudo(8) isn't available on your system, you may use other
+ programs to elevate your privileges.
 
 Installation:
 ```
@@ -25,19 +25,19 @@ $ sudo chmod 644 /usr/lib/<firefox-version>/distribution/policies.json
 ```
 
 ## Recommendation
-Addons:\
-I only use `uBlock Origin` as a "Privacy Addons".\
+Add-ons:\
+I only use `uBlock Origin` as a "Privacy Add-ons".\
 My settings through text file is in `doc/addons-privacy/uBlock-Origin`.
 
 Search engines:\
-`searX` - On Archlinux it's very easy to host searX instance yourself, but on other distros though...\
-`DDG-Lite` - Alternative to `searX`, but it's very ugly ui, lol (`DDG` without JS).\
+`searX` - On Arch Linux it's very easy to host searX instance yourself, but on other distros though...\
+`DDG-Lite` - Alternative to `searX`, but it's very ugly UI, lol (`DDG` without JS).\
 `DDG` - Just `DDG-Lite` with eyes-candy.
 
 [Arkenfox's wiki.](https://github.com/arkenfox/user.js/wiki)
 
 ## List of things to enable/disable if break
-**Make cookies persist.**\
+**To make cookies persist.**\
 network.cookie.lifetimePolicy = 0
 
 **Sites rendering weird.**\
