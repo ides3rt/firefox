@@ -179,10 +179,6 @@
 				"Value": "en-US, en",
 				"Status": "user"
 			},
-			"browser.search.update": {
-				"Value": false,
-				"Status": "locked"
-			},
 			"extensions.getAddons.showPane": {
 				"Value": false,
 				"Status": "locked"
