@@ -6,6 +6,4 @@ no-scripting: * true
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
-* * image noop
 behind-the-scene * * block
-behind-the-scene * image noop
