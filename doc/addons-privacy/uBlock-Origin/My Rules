@@ -9,5 +9,3 @@ no-scripting: * true
 * * image noop
 behind-the-scene * * block
 behind-the-scene * image noop
-addons.mozilla.org mozilla.net * noop
-addons.mozilla.org mozilla.org * noop
