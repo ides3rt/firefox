@@ -351,10 +351,6 @@
 				"Value": true,
 				"Status": "locked"
 			},
-			"security.insecure_connection_text.enabled": {
-				"Value": true,
-				"Status": "locked"
-			},
 			"gfx.font_rendering.opentype_svg.enabled": {
 				"Value": false,
 				"Status": "user"
