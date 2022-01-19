@@ -19,7 +19,9 @@ user_pref("webgl.disabled", false);
 ```
 
 **Language packages break (remove these 3 preferences in both `policies.json` and `user.js`).**\
-intl.accept_languages\
-javascript.use\_us\_english\_locale\
-extensions.autoDisableScopes\
+```
+intl.accept_languages
+javascript.use_us_english_locale
+extensions.autoDisableScopes
 extensions.enabledScopes
+```

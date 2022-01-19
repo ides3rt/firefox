@@ -219,10 +219,6 @@
 				"Value": "",
 				"Status": "locked"
 			},
-			"browser.safebrowsing.allowOverride": {
-				"Value": false,
-				"Status": "user"
-			},
 			"network.prefetch-next": {
 				"Value": false,
 				"Status": "locked"
