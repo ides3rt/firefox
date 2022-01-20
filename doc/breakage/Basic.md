@@ -3,21 +3,6 @@
 user_pref("gfx.webrender.all", false);
 ```
 
-**Disable clear cookies on exits.**
-``` md
-[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Cookies.md)
-```
-
-**Cross sites services, e.g. Instagram (reset on restart).**
-``` md
-[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Referer.md)
-```
-
-**Disable resist-fingerprinting/spoof-ua.**
-``` md
-[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/RFP.md)
-```
-
 **Netfilx.**
 ``` js
 user_pref("media.eme.enable", true);
@@ -35,3 +20,13 @@ javascript.use_us_english_locale
 extensions.autoDisableScopes
 extensions.enabledScopes
 ```
+
+**Disable clear cookies on exits.**\
+[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Cookies.md)
+
+**Cross sites services, e.g. Instagram (reset on restart).**\
+[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Referer.md)
+
+**Disable resist-fingerprinting/spoof-ua.**\
+[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/RFP.md)
+
