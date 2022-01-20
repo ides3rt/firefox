@@ -3,10 +3,14 @@
 user_pref("gfx.webrender.all", false);
 ```
 
+**Disable clear cookies on exits.**\
+[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Cookies.md)
+
 **Cross sites services, e.g. Instagram (reset on restart).**\
-``` js
-user_pref("network.http.referer.XOriginPolicy", 1);
-```
+[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Referer.md)
+
+**Disable resist-fingerprinting/spoof-ua.**\
+[Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/RFP.md)
 
 **Netfilx.**\
 ``` js
