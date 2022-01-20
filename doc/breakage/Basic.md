@@ -1,28 +1,34 @@
-**Sites rendering weird.**\
+**Sites rendering weird.**
 ``` js
 user_pref("gfx.webrender.all", false);
 ```
 
-**Disable clear cookies on exits.**\
+**Disable clear cookies on exits.**
+``` md
 [Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Cookies.md)
+```
 
-**Cross sites services, e.g. Instagram (reset on restart).**\
+**Cross sites services, e.g. Instagram (reset on restart).**
+``` md
 [Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/Referer.md)
+```
 
-**Disable resist-fingerprinting/spoof-ua.**\
+**Disable resist-fingerprinting/spoof-ua.**
+``` md
 [Here](https://github.com/ides3rt/firefox/blob/master/doc/replacement/RFP.md)
+```
 
-**Netfilx.**\
+**Netfilx.**
 ``` js
 user_pref("media.eme.enable", true);
 ```
 
-**GPU required (reset on restart).**\
+**GPU required (reset on restart).**
 ``` js
 user_pref("webgl.disabled", false);
 ```
 
-**Language packages break (remove these 3 preferences in both `policies.json` and `user.js`).**\
+**Language packages break (remove these 3 preferences in both `policies.json` and `user.js`).**
 ```
 intl.accept_languages
 javascript.use_us_english_locale
