@@ -215,10 +215,6 @@
 				"Value": false,
 				"Status": "locked"
 			},
-			"browser.safebrowsing.downloads.remote.url": {
-				"Value": "",
-				"Status": "locked"
-			},
 			"network.prefetch-next": {
 				"Value": false,
 				"Status": "locked"
@@ -233,6 +229,10 @@
 			},
 			"network.http.speculative-parallel-limit": {
 				"Value": 0,
+				"Status": "locked"
+			},
+			"browser.places.speculativeConnect.enabled": {
+				"Value": false,
 				"Status": "locked"
 			},
 			"browser.send_pings": {
