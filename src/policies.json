@@ -511,12 +511,16 @@
 				"Value": false,
 				"Status": "default"
 			},
-			"ui.systemUsesDarkTheme" {
+			"ui.systemUsesDarkTheme": {
 				"Value": 1,
 				"Status": "default"
 			},
 			"browser.backspace_action": {
 				"Value": 0,
+				"Status": "default"
+			},
+			"general.autoScroll": {
+				"Value": true,
 				"Status": "default"
 			},
 			"ui.key.menuAccessKey": {
