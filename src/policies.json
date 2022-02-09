@@ -511,6 +511,10 @@
 				"Value": false,
 				"Status": "default"
 			},
+			"ui.systemUsesDarkTheme" {
+				"Value": 1,
+				"Status": "default"
+			},
 			"browser.backspace_action": {
 				"Value": 0,
 				"Status": "default"
